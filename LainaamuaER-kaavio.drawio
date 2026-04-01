@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="847" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="770" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -134,7 +134,7 @@
         <mxCell id="8o3TvTuvZ7fzyV2BD03C-26" parent="8o3TvTuvZ7fzyV2BD03C-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="lender_id                                            FK" vertex="1">
           <mxGeometry height="26" width="240" y="106" as="geometry" />
         </mxCell>
-        <mxCell id="8o3TvTuvZ7fzyV2BD03C-34" parent="8o3TvTuvZ7fzyV2BD03C-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="star_date (date)" vertex="1">
+        <mxCell id="8o3TvTuvZ7fzyV2BD03C-34" parent="8o3TvTuvZ7fzyV2BD03C-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="start_date (date)" vertex="1">
           <mxGeometry height="26" width="240" y="132" as="geometry" />
         </mxCell>
         <mxCell id="8o3TvTuvZ7fzyV2BD03C-35" parent="8o3TvTuvZ7fzyV2BD03C-22" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" value="return_date (date)" vertex="1">
@@ -175,6 +175,22 @@
             <mxPoint x="780" y="80" as="sourcePoint" />
             <mxPoint x="760" y="158" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8o3TvTuvZ7fzyV2BD03C-50" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--17" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;curved=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="zkfFHV4jXpPFQw0GAbJ--6" value="belongs to">
+          <mxGeometry relative="1" x="0.3249" y="-13" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="430" y="520" as="sourcePoint" />
+            <mxPoint x="570" y="572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8o3TvTuvZ7fzyV2BD03C-51" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" value="*" vertex="1">
+          <mxGeometry x="336" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8o3TvTuvZ7fzyV2BD03C-52" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" value="*" vertex="1">
+          <mxGeometry x="517" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="8o3TvTuvZ7fzyV2BD03C-53" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="resizable=0;align=right;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" value="*" vertex="1">
+          <mxGeometry x="855" y="358" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
